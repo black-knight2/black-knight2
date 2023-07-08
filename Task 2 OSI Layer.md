@@ -8,9 +8,9 @@ Attack: Eavesdropping/Tap Attacks
 Description: Attackers physically tap into the communication medium, such as network cables or fiber optic lines, to intercept and capture data being transmitted.
 
 Impact:
-• Unauthorized access to sensitive information, including passwords, financial data, or intellectual property.
-• Breach of confidentiality and potential compromise of data integrity.
-• Can lead to subsequent attacks, such as identity theft or corporate espionage.
+o	Unauthorized access to sensitive information, including passwords, financial data, or intellectual property.
+o	Breach of confidentiality and potential compromise of data integrity.
+o	Can lead to subsequent attacks, such as identity theft or corporate espionage.
 
 Mitigation:
 1. Implement physical security measures, such as locked server rooms, surveillance cameras, and restricted access.
