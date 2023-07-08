@@ -1,8 +1,8 @@
-Name: Het Chheda
-Date: 8-7-23
+**Name: Het Chheda**
+**Date: 8-7-23**
 _____________________________________________________________________________________________________________________________________________________________
 
-Attack on OSI Layer 1 (Physical Layer):
+**Attack on OSI Layer 1 (Physical Layer):**
 
 Attack: Eavesdropping/Tap Attacks
 Description: Attackers physically tap into the communication medium, such as network cables or fiber optic lines, to intercept and capture data being transmitted.
@@ -18,7 +18,7 @@ Mitigation:
 3. Regularly inspect and monitor network infrastructure for any signs of tampering or physical compromises.
 
 
-**Attack** on OSI Layer 2 (Data Link Layer):**
+**Attack on OSI Layer 2 (Data Link Layer):**
 
 Attack: MAC Spoofing
 Description: Attackers manipulate the Media Access Control (MAC) address of their network interface to impersonate a legitimate device on the network.
@@ -34,7 +34,7 @@ Mitigation:
 3. Implement strong authentication mechanisms, such as 802.1X, to prevent unauthorized access.
 
 
-Attack on OSI Layer 3 (Network Layer):
+**Attack on OSI Layer 3 (Network Layer):**
 
 Attack: IP Spoofing
 Description: Attackers forge or manipulate the source IP address in IP packets to hide their identity or impersonate trusted entities.
@@ -50,7 +50,7 @@ Mitigation:
 3. Utilize encryption and tunneling protocols to secure communication channels and protect against tampering.
 
 
-Attack on OSI Layer 4 (Transport Layer):
+**Attack on OSI Layer 4 (Transport Layer):**
 
 Attack: SYN Flooding
 Description: Attackers flood a target server with a high volume of TCP SYN packets, exhausting its resources and preventing legitimate connections.
@@ -66,7 +66,7 @@ Mitigation:
 3. Scale infrastructure capacity to handle increased traffic during attacks.
 
 
-Attack on OSI Layer 5 (Session Layer):
+**Attack on OSI Layer 5 (Session Layer):**
 
 Attack: Session Hijacking
 Description: Attackers gain unauthorized access to an established session between two communicating entities, taking control of the session.
@@ -82,7 +82,7 @@ Mitigation:
 3. Regularly monitor session activities and detect any signs of suspicious behavior.
 
 
-Attack on OSI Layer 6 (Presentation Layer):
+**Attack on OSI Layer 6 (Presentation Layer):**
 
 Attack: Code Injection (e.g., SQL Injection, Cross-Site Scripting)
 Description: Attackers exploit vulnerabilities in application input validation, injecting malicious code into the presentation layer data.
@@ -98,7 +98,7 @@ Mitigation:
 3. Regularly update and patch applications to address known vulnerabilities.
 
 
-Attack on OSI Layer 7 (Application Layer):
+**Attack on OSI Layer 7 (Application Layer):**
 
 Attack: Distributed Denial-of-Service (DDoS)
 Description: Attackers overwhelm a target server or network with a massive volume of requests, rendering it unable to respond to legitimate traffic.
@@ -114,14 +114,14 @@ Mitigation:
 3. Implement rate-limiting and traffic-shaping mechanisms to control incoming requests.
 
 
-References:
+**References:**
 1.M. Shams and M. R. Amin, "A Review on Network Layer Attacks and Mitigation Techniques," 2019 11th International Conference on Electrical and Computer Engineering (ICECE), Dhaka, Bangladesh, 2019.
 
 2.T. K. Das, S. Basu, and P. P. Sarkar, "A Comprehensive Study on the DDoS Attacks and Mitigation Techniques: A Comprehensive Review," 2019 10th International Conference on Computing, Communication and Networking Technologies (ICCCNT), Kanpur, India, 2019.
 
 _____________________________________________________________________________________________________________________________________________________________
 
-Case Study 1: Mirai Botnet Attack (2016)
+**Case Study 1: Mirai Botnet Attack (2016)**
 Layer: Network Layer (Layer 3) and Application Layer (Layer 7)
 
 Overview:
@@ -143,7 +143,7 @@ Reference:
 J. Zhu, Z. Wang, S. Liu, and H. Cai, "A Botnet-Based DDoS Attack Detection Scheme Using Software-Defined Networking," in IEEE Access, vol. 6, pp. 47012-47024, 2018.
 
 
-Case Study 2: WannaCry Ransomware Attack (2017)
+**Case Study 2: WannaCry Ransomware Attack (2017)**
 Layer: Presentation Layer (Layer 6) and Application Layer (Layer 7)
 
 Overview:
@@ -165,7 +165,7 @@ Reference:
 J. Allouch, M. Labiod, and C. Ghedira, "Detection of WannaCry Ransomware Threat using Machine Learning," in 2018 15th IEEE Annual Consumer Communications & Networking Conference (CCNC), pp. 1-6, 2018.
 
 
-Case Study 3: ExPetr/Petya/NotPetya Ransomware (2017)
+**Case Study 3: ExPetr/Petya/NotPetya Ransomware (2017)**
 
 Overview:
 The ExPetr (also known as Petya or NotPetya) ransomware attack in 2017 targeted organizations worldwide. It initially spread through a compromised software update mechanism and then propagated within networks, encrypting files and demanding a ransom for their release.
@@ -187,7 +187,7 @@ Reference:
 A. H. Abdou et al., "A Practical Study on Ransomware Threats: Prevention, Detection, and Mitigation," IEEE Access, vol. 8, pp. 16159-16182, 2020.
 
 
-Case Study 4: Triton/Trisis Malware (2017)
+**Case Study 4: Triton/Trisis Malware (2017)**
 Layer: OSI Layer 1 (Physical Layer) and Layer 2 (Data Link Layer)
 
 Overview:
@@ -210,7 +210,7 @@ Reference:
 Saurabh Sharma et al., "Triton: A Malware Attack on Industrial Safety Systems," IEEE Security & Privacy, Vol. 16, No. 5, 2018.
 
 
-Case Study 5: Cable Haunt (2019)
+**Case Study 5: Cable Haunt (2019)**
 Layer: OSI Layer 1 (Physical Layer) and Layer 2 (Data Link Layer)
 
 Overview:
