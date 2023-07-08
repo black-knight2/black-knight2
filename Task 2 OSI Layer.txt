@@ -18,7 +18,7 @@ Mitigation:
 3. Regularly inspect and monitor network infrastructure for any signs of tampering or physical compromises.
 
 
-**Attack on OSI Layer 2 (Data Link Layer):**
+**Attack** on OSI Layer 2 (Data Link Layer):**
 
 Attack: MAC Spoofing
 Description: Attackers manipulate the Media Access Control (MAC) address of their network interface to impersonate a legitimate device on the network.
